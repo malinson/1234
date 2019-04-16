@@ -3,7 +3,7 @@
 
 <head>
 		<meta charset="UTF-8">
-	<link rel="stylesheet" href="zaliczenie.css" type="text/css" />
+	<link rel="stylesheet" href=" tag.css" type="text/css" />
 	<script type="text/javascript" src=""> </script>
 	<meta charset="UTF-8">
 	<title>strona </title>
@@ -17,7 +17,7 @@
 
 	<ul>
 		<li><button class="uno">Strona Główna</button></li>
-		<li><button class="dos">Hormony</button></li>
+		<li><a href="#Hormony" class="dos">Hormony</a></li>
 		<li><button class="tres">Tarczyca</button></li>
 		<li><button class="quatro">Przysadka Mózgowa</button></li>
 		<li><button class="sinko">O Nas</button></li>
@@ -27,21 +27,21 @@
 </div>
 <br /> 
 <div class="artykuły">
-<div class="Hormony">
+<div id="Hormony">
 	Hormony-są cząsteczkami sygnałowymi wydzielanymi przez gruczoły dokrewne, bardzo często działają w miejscach oddalonych od miejsca ich powstawania. Pełnią rolę podobną do impulsów elektrycznych w układzie nerwowym, jednak z kilkoma różnicami. Układ nerwowy działa bardzo szybko i krótkotrwale, natomiast układ hormonalny wolniej i dłużej. Hormony można porównać do posłańców wędrujących drogą krwi, którzy niosą informację do innych narządów. Nauka zajmująca się badaniem i właściwościami hormonów to endokrynologia.
 
 	</div>
 
 <br />
-<div class="Tarczyca">
+<div id="Tarczyca">
 	Tarczyca- właściwie gruczoł tarczowy, położona jest u dołu szyi przed tchawicą. Ten niewielki organ odpowiedzialny jest za wytwarzanie hormonów, które sterują przemianą materii w tkankach i narządach organizmu. Są to trójjodotyronina (T3), tyroksyna (T4) oraz kalcytonina. Do ich produkcji tarczycy niezbędne są odpowiednie ilości jodu pobierane z pożywienia i powietrza. Za pracę gruczołu tarczycy odpowiada hormon TSH wytwarzany w przysadce mózgowej. Kiedy z jakiegoś powodu tarczyca produkuje za mało hormonów w porównaniu do zapotrzebowania organizmu, mówimy o niedoczynności tarczycy. Na zachorowanie narażeni są zwłaszcza ludzie starsi, z przewagą kobiet.
 </div>	
 <br />
-<div class="Przysadka-Mózgowa">
+<div id="Przysadka-Mózgowa">
  Przysadka mózgowa-to gruczoł dokrewny, którego właściwa funkcja jest niezbędna do prawidłowego funkcjonowania organizmu. Hormony wydzielane przez ten narząd kontrolują m.in. przebieg procesów wzrostowych, ale i związane one są ze zjawiskami związanymi z rozrodem czy też wpływają na czynność tarczycy i nadnerczy.
 </div>
 <br />
-<div class="O-Nas">
+<div id="O-Nas">
 	Jestesmy lekarzami z długoletnim stażem  i chcemy wam przekazać troche wiedzy.
 
 	</div>
@@ -51,10 +51,14 @@
 
 <script>
 	$(document).ready(function(){
-  $("Strona Główna").click(function(){
-  	$("body").show();
-});
-});
+		$(".dos").click(function(){
+			$('html, body').animate({
+				scrollTop: $('#Hormony').offset().top
+			}, 1000);
+		});
+	});
+
+
 </script>
 </body>
 </html>
@@ -67,9 +71,6 @@
 
 
 css// 
-
-
-
 body {
 	background-color: #A9A9A9;
 }
@@ -91,7 +92,7 @@ li {
 
 .artykuły{
 	    width: 1000px;
-    margin-left: 330px;
+    margin-left: 460px;
 }
 .menu {
 	    width: 222px;
@@ -100,11 +101,23 @@ li {
 
 }
 
-.Hormony,
-.Tarczyca,
-.Przysadka-Mózgowa,
-.O-Nas {
+.menu a {
+	display: inline-block;
+color: #000;
+text-decoration: none;
+background: #ccc;
+padding: 3px 10px;
+border: 1px solid #555;
+}
+
+#Hormony,
+#Tarczyca,
+#Przysadka-Mózgowa,
+#O-Nas {
 	    margin-bottom: 100px;
     	font-size: 25px;
+		
+		
 }
-	
+
+
