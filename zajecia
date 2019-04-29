@@ -1,0 +1,358 @@
+html jq
+<!DOCTYPE html>
+<html lang ="pl">
+
+<head>
+		<meta charset="UTF-8">
+	<link rel="stylesheet" href=" zaliczenie.css" type="text/css" />
+	<script type="text/javascript" src=""> </script>
+	<meta charset="UTF-8">
+	<title>strona </title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="Strona-Główna">
+	<h1>Witamy na stronie</h1>
+	</div>
+<div class="menu">
+	<div style="border: solid darkred 5px;">
+
+	<ul>
+		<li><a href="#Strona-Główna" class="uno">Strona Główna</a></li>
+		<li><a href="#Hormony" class="dos">Hormony</a></li>
+		<li><a href="#Tarczyca" class="tres">Tarczyca</a></li>
+		<li><a href="#Przysadka-Mózgowa" class="quatro">Przysadka Mózgowa</a></li>
+		<li><a href="#O-Nas" class="sinko">O Nas</a></li>
+		<li><a href="#left_column" class="sech">Kontakt</a></li>
+	</ul>
+</div>
+</div>
+<br /> 
+<div class="artykuły">
+<div id="Hormony">
+	<h2>Hormony</h2>-są cząsteczkami sygnałowymi wydzielanymi przez gruczoły dokrewne, bardzo często działają w miejscach oddalonych od miejsca ich powstawania. Pełnią rolę podobną do impulsów elektrycznych w układzie nerwowym, jednak z kilkoma różnicami. Układ nerwowy działa bardzo szybko i krótkotrwale, natomiast układ hormonalny wolniej i dłużej. Hormony można porównać do posłańców wędrujących drogą krwi, którzy niosą informację do innych narządów. Nauka zajmująca się badaniem i właściwościami hormonów to endokrynologia.
+	<br />
+	  <h3> Podział i Rodzaje</h3>
+Do najczęściej stosowanych podziałów hormonów zalicza się podział ze względu na budowę chemiczną i miejsce wytwarzania hormonu.<br />
+Podział ze względu na budowę chemiczną:<br />
+– pochodne amin i aminokwasów, np. adrenalina, tyroksyna;<br />
+– białkowe i peptydowe, np. insulina, parathormon;<br />
+– sterydowe, np. hormony kory nadnerczy, hormony płciowe.<br />
+<br />
+Podział ze względu na miejsce wytwarzania:<br />
+		– hormony gruczołów dokrewnych, które powstają w gruczołach dokrewnych;<br />
+		– hormony tkankowe, które powstają w komórkach rozlokowanych w różnych częściach organizmu;<br />
+		– neurohormony, które są wytwarzane przez komórki układu nerwowego<br />
+
+
+
+
+	</div>
+
+<br />
+<div id="Tarczyca">
+	<h2>Tarczyca</h2>- właściwie gruczoł tarczowy, położona jest u dołu szyi przed tchawicą. Ten niewielki organ odpowiedzialny jest za wytwarzanie hormonów, które sterują przemianą materii w tkankach i narządach organizmu. Są to trójjodotyronina (T3), tyroksyna (T4) oraz kalcytonina. Do ich produkcji tarczycy niezbędne są odpowiednie ilości jodu pobierane z pożywienia i powietrza. Za pracę gruczołu tarczycy odpowiada hormon TSH wytwarzany w przysadce mózgowej. Kiedy z jakiegoś powodu tarczyca produkuje za mało hormonów w porównaniu do zapotrzebowania organizmu, mówimy o niedoczynności tarczycy. Na zachorowanie narażeni są zwłaszcza ludzie starsi, z przewagą kobiet.<br />
+
+	<h3>Do czego służą hormony tarczycy?</h3> <br />
+	 Pisząc w dużym uproszczeniu są to hormony nasilające metabolizm (aktywność życiową). Ich działanie jest związane przede wszystkim z T3, a T4 służy jako surowiec do przemiany w T3 przez lokalne systemy enzymów (dejodynaz), chociaż w niektórych sytuacjach być może i T4 działa bezpośrednio.<br />
+
+Rola trzeciego hormonu wydzielanego przez tarczycę - kalcytoniny - w układzie hormonalnym jest marginalna.
+
+Pracą tarczycy steruje przysadka mózgowa poprzez tyreotropinę (TSH ),
+
+TSH pobudza tarczycę do produkcji hormonów,
+hormony tarczycy hamują wydzielanie TSH,
+Powyższy mechanizm tworzy pętlę ujemnego sprzężenia zwrotnego utrzymującą hormony na właściwym poziomie.
+</div>	
+<br />
+<div id="Przysadka-Mózgowa">
+ <h2>Przysadka mózgowa</h2>-Przysadka mózgowa to "centralny" gruczoł wydzielania wewnętrznego - produkuje wiele hormonów sterujących pracą innych gruczołów. Najważniejsze to tyreotropina (TSH; pobudza tarczycę), Adrenokortykotropina (ACTH; pobudza korę nadnerczy), folikulotropina i hormon luteinizujący FSH i LH; (wpływają na gruczoły płciowe). Inne hormony przysadkowe to prolaktyna (PRL) i hormon wzrostu (GH)<br />
+
+ <h3>Najważniejszymi hormonami przedniego płata przysadki są:</h3>
+Hormon adrenokortykotropowy (ACTH), który stymuluje aktywność kory nadnerczy. Niedobór ACTH wywołuje groźną dla życia niedoczynność kory nadnerczy. Zaś nadmiar ACTH prowadzi do nadczynności kory nadnerczy (tzw. choroba Cushinga).<br />
+Hormon tyreotropowy (TSH) – pobudzający tarczycę do wydzielania hormonów (tyroksyny i trójjodotyroniny). Brak wydzielanego przez przysadkę TSH prowadzi do wtórnej niedoczynności tarczycy, natomiast nadmiar tego hormonu wywołuje rzadką postać nadczynności gruczołu dokrewnego.
+Hormon wzrostu (GH) – pobudzający wzrost dzieci, a ponadto wywierający wpływ na gospodarkę białkową, tłuszczową i węglowodanową organizmu. Pobudza przyswajanie aminokwasów i zwiększa syntezę białka. Nadmierne wydzielanie hormonu w okresie wzrostu prowadzi do tzw. gigantyzmu (bardzo wysoki wzrost – powyżej 200 cm u mężczyzn i 190 cm u kobiet), a u osób dorosłych do akromegalii (powiększenie rąk, stóp i części kostnych twarzy, z charakterystycznym uwydatnieniem żuchwy i „pogrubieniem” rysów twarzy). Niedobór hormonu wzrostu u dzieci analogicznie prowadzi do karłowatości.
+Gonadotropiny (FSH i LH) – hormony kontrolujące działanie jąder u mężczyzn i jajników u kobiet. Niedomagająca przysadka w zakresie wydzielania gonadotropin prowadzi wtórnie do hipogonadyzmu, czyli niedostatecznej funkcji jajników i jąder.
+Prolaktyna (PRL) – hormon regulujący wytwarzanie mleka przez piersi. Wysoki poziom prolaktyny jest charakterystyczny dla ciąży i okresu karmienia. Nadmierne wydzielanie prolaktyny prowadzi do zaburzeń miesiączkowania u kobiet, a u obojga płci może być powodem bezpłodności.
+Hormon melanotropowy (MSH) – wpływający na czynność melanocytów (czyli komórek barwnikowych), co powoduje nasilenia zabarwienia skóry
+</div>
+<br />
+<div id="O-Nas">
+	<h2>O Nas</h2>
+	Jestesmy lekarzami z długoletnim stażem  i chcemy wam przekazać troche wiedzy.
+
+	</div>
+
+</div>
+
+  <section class="contact_data">
+				<div id="left_column">
+					<h4>Kontakt</h4>
+					<p>
+						<span>
+							ul.Beskidzka<br>
+							80-123 Warszawa<br>
+							tel.132-2234-22<br>
+							fax. 2612621717
+						</span>
+						<span>
+							e-mail: lekarze1234.com
+						</span>
+						<span>
+							KRS: 327233232<br>
+							NIP: 236272332<br>
+							REGON: 8237328328
+						</span>
+					</p>
+				</div>
+				<div class="right_column">
+					<h4>Masz pytania,napisz do nas:</h4>
+					<form action="./index.html" method="POST">
+						<label for="nameField" class="hidden"></label>
+						<input id="nameField" type="text" name="imie"
+							placeholder="Imię i nazwisko (wymagane)" required>
+							
+						<label for="emailField" class="hidden"></label>
+						<input id="emailField" type="email" name="email" pattern=".+@.+\..+"
+							placeholder="Email (wymagane)" required>
+							
+						<label for="phoneField" class="hidden"></label>
+						<input id="phoneField" type="number" name="telefon"
+							placeholder="Telefon">
+							
+						<label for="messageField" class="hidden"></label>
+						<textarea id="messageField" name="wiadomosc" rows="5" cols="12"
+							placeholder="Wiadomość"></textarea>
+							
+
+
+				 <input type="submit"  class="submitButton"
+							value="Wyślij" > 
+					</form>
+				</div>
+			 </section>
+
+
+
+<script>
+	$(document).ready(function(){
+		$(".dos").click(function(){
+			$('html, body').animate({
+				scrollTop: $('#Hormony').offset().top
+			}, 1000);
+		});
+	});
+
+		$(document).ready(function(){
+		$(".tres").click(function(){
+			$('html, body').animate({
+				scrollTop: $('#Tarczyca').offset().top
+			}, 1000);
+		});
+	});
+
+
+		$(document).ready(function(){
+		$(".quatro").click(function(){
+			$('html, body').animate({
+				scrollTop: $('#Przysadka-Mózgowa').offset().top
+			}, 1000);
+		});
+	});
+
+		$(document).ready(function(){
+		$(".sinko").click(function(){
+			$('html, body').animate({
+				scrollTop: $('#O-Nas').offset().top
+			}, 1000);
+		});
+	});
+
+			$(document).ready(function(){
+		$(".sech").click(function(){
+			$('html, body').animate({
+				scrollTop: $('#left_column').offset().top
+			}, 1000);
+		});
+	});
+
+
+			$(document).ready(function(){
+		$(".uno").click(function(){
+			$('html, body').animate({
+				scrollTop: $('#Strona-Główna').offset().top
+			}, 1000);
+		});
+	});
+
+</script>
+</body>
+</html>
+
+		
+		
+css
+
+
+body {
+	background-color: #A9A9A9;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	
+}
+
+h3,
+h2 {
+	text-align: center;
+}
+h4 {
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: none;
+        padding-right: 10px;
+}
+
+li {
+	margin-bottom: 18px;
+	font-size: 20px;
+
+}
+
+.artykuły{
+	    width: 1000px;
+    margin-left: 350px;
+}
+.menu {
+	    width: 222px;
+    margin-left: -5px;
+    position: fixed;
+
+
+}
+
+.menu a {
+	display: inline-block;
+color: #000;
+text-decoration: none;
+background: #ccc;
+padding: 3px 10px;
+border: 1px solid #555;
+}
+
+
+#Hormony,
+#Tarczyca,
+#Przysadka-Mózgowa,
+#O-Nas {
+	    margin-bottom: 100px;
+    	font-size: 25px;
+		
+		
+}
+
+.main_content h1 {
+    text-align: center;
+    text-transform: uppercase;
+    
+    font-size: 38px;
+    font-weight: bold;
+    margin: 92px 0 0;
+}
+.main_content p {
+	margin: 56px auto;
+    width: 1340px;
+    font-size: 20px;
+
+    line-height: 29px;
+}
+.contact_data {
+	margin: 178px 0 0;
+	overflow: hidden;
+}
+.contact_data #left_column {
+    width: 500px;
+    margin-left: 240px;
+	float: left;
+}
+.contact_data #left_column h3 {
+    margin-left: 2px;
+    margin-top: -1px;
+    line-height: 51px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact_data #left_column p {
+    margin-top: 35px;
+    font-size: 20px;
+  
+    line-height: 29px;
+    letter-spacing: 0.5px;
+}
+.contact_data #left_column span {
+    display: block;
+    margin-bottom: 29px;
+}
+.contact_data .right_column {
+    width: 500px;
+    float: right;
+    margin-right: 170px;
+}
+.contact_data .right_column  h3 {
+    margin-left: 1px;
+    margin-top: 1px;
+    line-height: 51px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact_data .right_column form {
+    margin: 29px 0 0;
+}
+.contact_data .right_column input {
+    display: block;
+    margin-bottom: 22px;
+    width: 622px;
+    height: 52px;
+    border: 3px solid #D6D6D6;
+    font-size: 20px;
+    padding: 0 19px;
+    letter-spacing: -0.5px;
+}
+.contact_data .right_column textarea {
+    border: 3px solid #D6D6D6;
+    width: 620px;
+    height: 105px;
+    margin: -3px 0 32px;
+    resize: none;
+   
+    padding: 12px 20px;
+    font-size: 19px;
+}
+.contact_data .right_column .submitButton {
+    float: right;
+    background: #A9A9A9;
+    border: 5px solid #3E3E3E;
+    width: 322px;
+    margin: 0 4px;
+    height: 63px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-size: 19px;
+}
+#emailField {
+	width: 300px;
+    float: left;
+}
+#phoneField  {
+	width: 261px;
+   
+    float: left;
+}
+
+ 
+
+
